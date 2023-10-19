@@ -117,3 +117,7 @@ a.aa:hover {
     justify-content: center;
     width: 100%;
 }
+
+.footer div a:hover {
+    text-decoration: underline;
+}
