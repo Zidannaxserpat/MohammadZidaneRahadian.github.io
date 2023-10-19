@@ -24,6 +24,7 @@ header {
 }
 
 .main .banner {
+    cursor: pointer;
     background-image: url('iPhone.png');
     height: 500px;
     background-repeat: no-repeat;
