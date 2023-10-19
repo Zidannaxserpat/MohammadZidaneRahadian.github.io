@@ -1,109 +1,114 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    box-shadow: 2px 2px 10px rgb(255, 0, 0);
-}
-
-.main .jumbotron .mainHeader {
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    padding: 50px 0;
-    box-shadow: 2px 2px 10px white;
-    z-index: 0;
-}
-
-.main .jumbotron .mainHeader img {
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.main .banner {
-    cursor: pointer;
-    background-image: url('iPhone.png');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: -27px;
-}
-
-.link {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
-
-.a {
-    margin-top: 40px;
-}
-
-.a a {
-    padding: 0 10px;
-    margin-top: 70px;
-    text-decoration: none;
-    color: rgb(0, 136, 247);
-}
-
-.aa {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a.aa:hover {
-    text-decoration: none;
-}
-
-.a a:hover {
-    text-decoration: underline;
-}
-
-.image img {
-    transition: transform 0.4s;
-}
-
-.image img:hover {
-    box-shadow: 0 0 10px white;
-    transform: rotateZ(360deg);
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.footer div {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.footer a {
-    margin-top: 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-}
-
-.content {
-    justify-content: center;
-    font-size: 19px;
-    text-align: center;
-    display: flex;
-}
-
-.tulisan {
-    position: relative;
-    position: absolute;
-    margin:-26px 0 0 200px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Shortcut Icon" href="Appleweblogo.png">
+</head>
+<header>
+    <div class="navbar"></div>
+    <div class="main">
+        <div class="jumbotron">
+            <div class="mainHeader">
+                <div class="text">
+                    <h1>MACBOOK PRO M1</h1>
+                    <h3>
+                        The Best Chipset - it will make you being faster.
+                    </h3>
+                    <p>Create by: Zidane</p>
+                </div>
+                <div class="image">
+                    <img src="Anya.jpeg" alt="">
+                </div>
+            </div>  
+        </div>
+    </div>
+</header>
+<body>
+    <div class="main">
+        <div class="jumbotron">
+            <div class="content">
+                <div class="iPhone">
+                    <div class="menulis">
+                        <h1>iPhone 15 Pro Max</h1>
+                        <p>Titanium. So Strong. So Light. So Pro</p>  
+                        <div class="a" style="margin-top: -1px;">
+                            <a href="https://www.apple.com/iphone-15-pro/">Learn More<a class="aa">></a></a>
+                            <a href="https://www.apple.com/us/shop/goto/buy_iphone/iphone_15_pro">Beli di dieu<a class="aa">></a></a>
+                        </div>
+                    </div>
+                    <a href="https://www.apple.com/iphone-15-pro/"><img style="cursor: pointer;" src="iPhone.png" alt=""></a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="iPad">
+                    <div class="tulisan">
+                        <h1>iPad</h1>
+                        <p>Loveable. Drawable. Mantap lahh</p>  
+                        <div class="a" style="margin-top: -1px;">
+                            <a href="https://www.apple.com/ipad-10.9/">Learn More<a class="aa">></a></a>
+                            <a href="https://www.apple.com/us/shop/goto/buy_ipad/ipad">Beli di dieu<a class="aa">></a></a>
+                        </div>
+                    </div>
+                    <a href="https://www.apple.com/ipad-10.9/"><img style="cursor: pointer;" src="iPad.png" alt=""></a>
+                </div>
+                <div class="mac">
+                    <div class="tulisan">
+                        <h1>MacBook Air 15</h1>
+                        <p>Loveable. Drawable. Geulis eeuuy</p>  
+                        <div class="a" style="margin-top: -1px;">
+                            <a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn More<a class="aa">></a></a>
+                            <a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Beli di dieu<a class="aa">></a></a>
+                        </div>
+                    </div>
+                    <a href="https://www.apple.com/macbook-air-13-and-15-m2/"><img style="cursor: pointer;" src="Mac.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <H4>Shop and Learn</H4>
+            <a href="">Store</a>
+            <a href="">Mac</a>
+            <a href="">iPad</a>
+            <a href="">iPhone</a>
+            <a href="">Watch</a>
+        </div>
+        <div class="footer2">
+            <h4>Entertainment</h4>
+            <a href="">Apple One</a>
+            <a href="">Apple TV+</a>
+            <a href="">Apple Music</a>
+            <a href="">Apple Arcade</a>
+            <a href="">Apple Fitness+</a>
+        </div>
+        <div class="footer3">
+            <h4>Apple Store</h4>
+            <a href="">Find a Store</a>
+            <a href="">Genius Bar</a>
+            <a href="">Today at Apple</a>
+            <a href="">Apple Camp</a>
+            <a href="">Apple Store App</a>
+        </div>
+        <div class="footer4">
+            <h4>Apple Values</h4>
+            <a href="">Accessibility</a>
+            <a href="">Education</a>
+            <a href="">Environment</a>
+            <a href="">Inclusion and Diversity</a>
+            <a href="">Privacy</a>
+        </div>
+        <div class="footer5">
+            <h4>About Apple</h4>
+            <a href="">Newsroom</a>
+            <a href="">Apple Leeadership</a>
+            <a href="">Carrier Opportunities</a>
+            <a href="">Investors</a>
+            <a href="">Ethics & Compliance</a>
+        </div>
+    </div>
+</body>
+</html>
