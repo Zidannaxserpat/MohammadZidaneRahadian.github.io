@@ -67,6 +67,7 @@ a.aa:hover {
 }
 
 .image img:hover {
+    box-shadow: 0 0 10px white;
     transform: rotateZ(360deg);
 }
 
