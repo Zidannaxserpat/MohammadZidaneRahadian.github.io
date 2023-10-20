@@ -33,7 +33,6 @@ nav ul li img:hover {
 
 
 nav {
-    margin-top: 30px;
     padding: -100px 0;
     backdrop-filter: blur(50px);
     position: fixed;
@@ -112,7 +111,6 @@ a.aa:hover {
     box-shadow: 0 0 20px 5px red;
 }
 
-
 .footer {
     background-color: black;
     color: white;
@@ -173,4 +171,8 @@ a.aa:hover {
 
 .footer div a:hover {
     text-decoration: underline;
+}
+
+header {
+    margin-top: 30px;
 }
