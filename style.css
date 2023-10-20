@@ -54,9 +54,11 @@ a.aa:hover {
 
 .image img {
     transition: transform 0.4s;
+    transition: box-shadow 0.4s;
 }
 
 .image img:hover {
+    box-shadow: 0 0 10px red;
     transform: rotateZ(360deg);
 }
 
