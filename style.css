@@ -58,8 +58,8 @@ a.aa:hover {
 }
 
 .image img:hover {
-    box-shadow: 0 0 10px red;
     transform: rotateZ(360deg);
+    box-shadow: 0 0 10px red;
 }
 
 .footer {
