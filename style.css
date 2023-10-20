@@ -33,6 +33,7 @@ nav ul li img:hover {
 
 
 nav {
+    margin-top: 30px;
     padding: -100px 0;
     backdrop-filter: blur(50px);
     position: fixed;
