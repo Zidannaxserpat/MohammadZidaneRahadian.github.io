@@ -1,3 +1,52 @@
+nav ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    padding-top: 5px;
+    margin: -8px 0 -8px 0;
+}
+
+nav li a {
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+    margin: 0;
+    text-decoration: none;
+    margin: 8px 16px;
+    transition: color 0.2s ease-in-out;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+nav ul li img {
+    margin-top: -10px;
+    transition: filter 0.2s ease-in-out;
+}
+
+nav ul li img:hover {
+    filter: brightness(10);
+}
+
+
+nav {
+    padding: -100px 0;
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    /* padding: 10px; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733); 
+    /* background-size: 400%; */
+}
+
 body {
     margin: 0;
     padding: 0;
