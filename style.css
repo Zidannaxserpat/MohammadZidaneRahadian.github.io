@@ -135,7 +135,7 @@ a.aa:hover {
 }
 
 .content {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
 }
 
@@ -160,7 +160,7 @@ a.aa:hover {
     color: white;
     position: relative;
     position: absolute;
-    margin-left: 800px;
+    margin-left: 660px;
 }
 
 .iPhone img {
@@ -175,4 +175,16 @@ a.aa:hover {
 
 header {
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 11px;
+    }
+
+    .tulisan {
+        position: relative;
+        position: absolute;
+        float: right;
+    }
 }
