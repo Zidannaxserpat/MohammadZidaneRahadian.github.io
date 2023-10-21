@@ -219,7 +219,7 @@ header {
     color: white;
     background: linear-gradient(135deg, black, grey, white);
     background-size: 400%;
-    animation: gradient 1s infinite;
+    animation: gradient 5s infinite;
 }
 
 @keyframes gradient {
