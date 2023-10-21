@@ -184,7 +184,7 @@ header {
         font-size: 11px;
     }
 
-    content {
+    .content {
         display: none;
     }
 
