@@ -112,6 +112,7 @@ a.aa:hover {
 }
 
 .footer {
+    text-shadow: 0 2px 5px red;
     background-color: black;
     color: white;
     height: 300px;
@@ -179,12 +180,50 @@ header {
 
 @media only screen and (max-width: 600px) {
     * {
+        size: 1000px;
         font-size: 11px;
     }
+
+    nav {
+        background-size: 400%;
+        background-color: white;
+        color: white;
+        background: linear-gradient(45deg, maroon, red, salmon, pink, white);
+        animation: gradient 1s infinite;
+    }
+
+    @keyframes gradient {
+        0%, 100% {
+            background-position: 0% 50%;
+        }
+    
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
 
     .tulisan {
         position: relative;
         position: absolute;
         float: right;
+    }
+}
+
+.footer {
+    background-color: #4285f4;
+    color: white;
+    background: linear-gradient(135deg, black, grey, white);
+    background-size: 400%;
+    animation: gradient 20s infinite;
+}
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+  
+    50% {
+        background-position: 100% 50%;
     }
 }
