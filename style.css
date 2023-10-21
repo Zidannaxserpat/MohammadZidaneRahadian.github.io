@@ -184,6 +184,10 @@ header {
         font-size: 11px;
     }
 
+    content {
+        display: none;
+    }
+
     nav {
         background-size: 400%;
         background-color: white;
@@ -215,7 +219,7 @@ header {
     color: white;
     background: linear-gradient(135deg, black, grey, white);
     background-size: 400%;
-    animation: gradient 5s infinite;
+    animation: gradient 1s infinite;
 }
 
 @keyframes gradient {
