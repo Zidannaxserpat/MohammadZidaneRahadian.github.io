@@ -1,15 +1,21 @@
-nav ul {
+.sidenav {
+    position: relative;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar ul {
     list-style: none;
     justify-content: center;
     display: flex;
 }
 
-nav ul li {
+.navbar ul li {
     padding-top: 5px;
     margin: -8px 0 -8px 0;
 }
 
-nav li a {
+.navbar li a {
     font-size: 12px;
     color: rgb(175, 175, 175);
     margin: 0;
@@ -18,21 +24,21 @@ nav li a {
     transition: color 0.2s ease-in-out;
 }
 
-nav li a:hover {
+.navbar li a:hover {
     color: white;
 }
 
-nav ul li img {
+.navbar ul li img {
     margin-top: -10px;
     transition: filter 0.2s ease-in-out;
 }
 
-nav ul li img:hover {
+.navbar ul li img:hover {
     filter: brightness(10);
 }
 
 
-nav {
+.navbar {
     padding: -100px 0;
     backdrop-filter: blur(50px);
     position: fixed;
@@ -54,12 +60,12 @@ body {
 }
 
 .main .jumbotron .mainHeader {
+    margin-top: -10px;
     color: white;
     display: flex;
     justify-content: space-around;
     background-color: black;
     padding: 50px 0;
-    box-shadow: 2px 2px 10px white;
 }
 
 .main .jumbotron .mainHeader img {
@@ -161,7 +167,7 @@ a.aa:hover {
     color: white;
     position: relative;
     position: absolute;
-    margin-left: 660px;
+    margin-left:455px;
 }
 
 .iPhone img {
@@ -179,47 +185,138 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-    * {
-        size: 1000px;
-        font-size: 11px;
+
+    html {
+        font-size: 10px;
+    }
+
+    #image {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mainHeader {
+        margin-top: -70px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        color: black;
+        background-color: black;
+        margin-top: -20px;
+        z-index: -1;
+        /* position: relative;
+        position: absolute; */
+    }
+
+    .navbar ul li {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .navbar ul li a {
+        z-index: -1;
+        color: black;
+    }
+
+    .sidenav {
+        margin: 0;
+        backdrop-filter: blur(100px);
+        z-index: 1;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #00000033;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .sidenav ul {
+        z-index: 100;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .sidenav li {
+        padding: 20px;
+    }
+    
+    .sidenav ul li a {
+        padding: 8px 16;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        text-shadow: 0 0 5px lightgreen;
+    }
+
+    .sidenav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .sidenav ul li a img {
+        transition: transform 0.4s;
+        filter: brightness(100);
+    }
+
+    .sidenav ul li a img:hover {
+        filter: brightness(100);
+        transform: scale(1.2);
+    }
+    
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .open-button {
+        font-size: 30px;
+        cursor: pointer;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 100;
+        color: rgb(0, 0, 0);
     }
 
     .content {
-        display: none;
+        display: inline;
     }
 
-    nav {
-        background-size: 400%;
-        background-color: white;
-        color: white;
-        background: linear-gradient(45deg, maroon, red, salmon, pink, white);
-        animation: gradient 1s infinite;
+    .content img {
+        width: 100%;
     }
-
-    @keyframes gradient {
-        0%, 100% {
-            background-position: 0% 50%;
-        }
-    
-        50% {
-            background-position: 100% 50%;
-        }
-    }
-
 
     .tulisan {
-        position: relative;
-        position: absolute;
-        float: right;
+        margin-left: 150px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tulisan h1 {
+        margin-left: -20px;
+    }
+
+    .menulis {
+        margin-left: 150px;
+        text-align: center;
+        font-size: 10px;
     }
 }
 
 .footer {
     background-color: #4285f4;
     color: white;
-    background: linear-gradient(135deg, black, grey, white);
+    background: linear-gradient(135deg, black, grey);
     background-size: 400%;
-    animation: gradient 5s infinite;
+    animation: gradient 10s infinite;
 }
 
 @keyframes gradient {
