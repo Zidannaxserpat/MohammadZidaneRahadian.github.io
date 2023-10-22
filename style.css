@@ -295,7 +295,7 @@ header {
     }
 
     .tulisan {
-        /* margin-left: 150px; */
+        margin-left: 2200px;
         justify-content: center;
         text-align: center;
     }
@@ -305,7 +305,7 @@ header {
     }
 
     .menulis {
-        /* margin-left: 150px; */
+        margin-left: 150px;
         text-align: center;
         font-size: 10px;
     }
