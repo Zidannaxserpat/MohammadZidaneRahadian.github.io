@@ -6,8 +6,14 @@
     <title>Apple</title>
     <link rel="stylesheet" href="style.css">
     <link rel="Shortcut Icon" href="Appleweblogo.png">
+    <script src="script.js"></script>
 </head>
-<nav>
+<div class="main-content">
+    <span style="color: white; text-shadow: 0 0 5px red;" class="open-button" onclick="openNav()">&#9776; Open</span>
+    <!-- <h1>Your Main Content Goes Here</h1> -->
+</div>
+<nav class="sidenav">
+    <div style="text-shadow: 0 0 10px red; float: right; position: sticky;" class="close-button" onclick="closeNav()">&times;</div>
     <ul>
         <li><a href="index.html"><img style="width: 25px; height: 25px; padding: 4px 0 0; cursor: pointer;" src="Apple.png" alt=""></a></li>
         <li><a href="https://www.apple.com/us/shop/goto/store">Store</a></li>
@@ -23,6 +29,26 @@
         <li><a href="https://support.apple.com/?cid=gn-ols-home-hp-tab">Support</a></li>
         <li><a href=""><img style="width: 25px; height: 25px; padding-top: 5px; cursor: pointer;" src="search.svg" alt=""></a></li>
         <li><a href="https://www.apple.com/us/shop/goto/bag"><img style="width: 25px; height: 25px; padding: 4px 0 0 1px; cursor: pointer;" src="shopbag.svg" alt=""></a></li>
+    </ul>
+    
+    <script src="script.js"></script>
+</nav>
+<nav class="navbar">
+    <ul class="navul">
+        <li><a href="index.html"><img style="width: 25px; height: 25px; padding: 4px 0 0; cursor: pointer;" src="Apple.png" alt=""></a></li>
+        <li><a href="https://www.apple.com/us/shop/goto/store">Store</a></li>
+        <li><a href="https://www.apple.com/mac/">Mac</a></li>
+        <li><a href="https://www.apple.com/ipad/">iPad</a></li>
+        <li><a href="https://www.apple.com/iphone/">iPhone</a></li>
+        <li><a href="https://www.apple.com/watch/">Watch</a></li>
+        <li><a href="https://www.apple.com/apple-vision-pro/">Vision</a></li>
+        <li><a href="https://www.apple.com/airpods/">AirPods</a></li>
+        <li><a href="https://www.apple.com/tv-home/">TV & Home</a></li>
+        <li><a href="https://www.apple.com/entertainment/">Entertainment</a></li>
+        <li><a href="https://www.apple.com/us/shop/goto/buy_accessories">Accessories</a></li>
+        <li><a href="https://support.apple.com/?cid=gn-ols-home-hp-tab">Support</a></li>
+        <li><a href=""><img style="width: 25px; height: 25px; padding-top: 5px; cursor: pointer;" src="search.svg" alt=""></a></li>
+        <li><a id="image" href="https://www.apple.com/us/shop/goto/bag"><img style="width: 25px; height: 25px; margin: -6px 0 0 1px; cursor: pointer;" src="shopbag.svg" alt=""></a></li>
     </ul>
 </nav>
 <header>
@@ -58,14 +84,14 @@
                             <a href="https://www.apple.com/us/shop/goto/buy_iphone/iphone_15_pro">Beli di dieu<a class="aa">></a></a>
                         </div>
                     </div>
-                    <a href="https://www.apple.com/iphone-15-pro/"><img style="cursor: pointer; width: 1700px;" src="iPhone.png" alt=""></a>
+                    <a href="https://www.apple.com/iphone-15-pro/"><img style="cursor: pointer;" src="iPhone.png" alt=""></a>
                 </div>
             </div>
             <div class="content">
                 <div class="iPad">
                     <div class="tulisan">
-                        <h1 style="margin-left: 90px; justify-content: center;">iPad</h1>
-                        <p>Loveable. Drawable. Mantap lahh</p>  
+                        <h1 style="margin-left: 0; justify-content: center;">iPad</h1>
+                        <p style="margin-left: -16px;">Loveable. Drawable. Mantap lahh</p>  
                         <div class="a" style="margin-top: -1px;">
                             <a href="https://www.apple.com/ipad-10.9/">Learn More<a class="aa">></a></a>
                             <a href="https://www.apple.com/us/shop/goto/buy_ipad/ipad">Beli di dieu<a class="aa">></a></a>
@@ -75,7 +101,7 @@
                 </div>
                 <div class="mac">
                     <div class="tulisan">
-                        <h1>MacBook Air 15</h1>
+                        <h1 style="margin-left: -10px;">MacBook Air 15</h1>
                         <p>Loveable. Drawable. Geulis eeuuy</p>  
                         <div class="a" style="margin-top: -1px;">
                             <a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn More<a class="aa">></a></a>
