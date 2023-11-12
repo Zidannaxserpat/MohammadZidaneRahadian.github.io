@@ -1,0 +1,194 @@
+@media only screen and (max-width: 650px) {
+
+    html {
+        font-size: 17px;
+    }
+
+    #image {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mainHeader {
+        margin-top: -70px;
+    }
+
+    .mainHeader .text {
+        font-size: 15px;
+    }
+
+    .main .jumbotron .mainHeader img {
+        width: 180px;
+        
+    }
+
+    .navbar {
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        margin-top: -50px;
+        z-index: -1;
+    }
+
+    .navbar ul li {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .navbar ul li a {
+        z-index: -1;
+        color: black;
+    }
+
+    .sidenav {
+        margin: 0;
+        backdrop-filter: blur(100px);
+        z-index: 1;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #00000033;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 20px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .sidenav ul {
+        z-index: 100;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .sidenav li {
+        padding: 20px;
+    }
+    
+    .sidenav ul li a {
+        padding: 8px 16;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        text-shadow: 0 0 5px lightgreen;
+    }
+
+    .sidenav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .sidenav ul li a img {
+        transition: transform 0.4s;
+        filter: brightness(100);
+    }
+
+    .sidenav ul li a img:hover {
+        filter: brightness(100);
+        transform: scale(1.2);
+    }
+    
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .open-button {
+        font-size: 30px;
+        cursor: pointer;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 100;
+        color: rgb(0, 0, 0);
+    }
+
+    .content {
+        display: inline;
+    }
+
+    .content img {
+        width: 100%;
+    }
+
+    .tulisan {
+        margin-left: 150px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tulisan h1 {
+        margin-left: -20px;
+    }
+
+    .menulis {
+        margin-left: 220px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .footer4 {
+        margin: 0 -18px 12px 10px;
+    }
+
+    .footer3 {
+        margin-bottom: 12px;
+    }
+
+    .footer2 {
+        margin: 0 15px 20.5px -10px;
+    }
+
+    .footer1 {
+        margin: 0 0 10px 5px;
+    }
+
+    .mac .tulisan {
+        margin: 0 0 0 100px;
+        font-size: 10px;
+    }
+    
+    .mac .tulisan h1 {
+        margin-right: -20px;
+    }
+
+    .iPad .tulisan {
+        margin: 0 0 0 100px;
+        font-size: 10px;
+    }
+    
+    .iPad .tulisan h1 {
+        margin-right: 75px;
+    }
+
+    .iPhone .menulis {
+        position: relative;
+        position: absolute;
+        font-size: 13px;
+        margin: 0 100px 0 100px;
+    }
+
+    .menulis h1 {
+        font-size: 18px;
+    }
+
+    .menulis p {
+        font-size: 10px;
+    }
+
+    .menulis .a {
+        font-size: 9px;
+    }
+
+    .iPhoneIMG {
+        height: 220px;
+    }
+}
